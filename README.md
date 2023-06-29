@@ -25,4 +25,4 @@ All content generally resides in the "src" folder.
 3. "img" folder is self explanatory, containing images used.
 4. "pages" folder contains the other 3 pages and a "_app.tsx" for multi-page metadata.
 5. "styles" folder contains globals.css and possible additional css files.
-The project uses TailWind [Next.js](https://tailwindcss.com/) for demonstrative purposes, utilizing the framework for faster workflow outcomes.
+The project uses [Tailwind](https://tailwindcss.com/) for demonstrative purposes, utilizing the framework for faster workflow outcomes.
