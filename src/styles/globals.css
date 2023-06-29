@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Navbuttons */
+  .navbutton {
+    @apply px-8 py-2 rounded text-center font-bold;
+    transform: scale(1);
+    transition: transform .3s ease-in
+  }
+  .navbutton:hover{
+    transform: scale(1.1);
+  }
+  .navbutton:hover span{
+    transform: scale(1.1, 1.2);
+  }
+
+.linkbtn {
+  @apply text-lg text-slate-200 hover:text-white hover:bg-gray-50 hover:bg-opacity-20
+}
+  /* Hero title slider */
+  .animation {
+    height:50px;
+    overflow:hidden;
+    margin-left: 1rem;
+  }
+  
+  .animation > div > div {
+    display:inline-block;
+  }
+  
+  .animation div:first-child {
+    animation: text-animation 8s infinite;
+  }
+
+  @keyframes text-animation {
+    0% {margin-top: 0.25rem;}
+    10% {margin-top: 0.25rem;}
+    20% {margin-top: -3.2rem;}
+    30% {margin-top: -3.2rem;}
+    40% {margin-top: -7rem;}
+    60% {margin-top: -7rem;}
+    70% {margin-top: -3.2rem;}
+    80% {margin-top: -3.2rem;}
+    90% {margin-top: 0.25rem;}
+    100% {margin-top: 0.25rem;}
+  }
+}
+
+/* Typography */
+.header1 {
+  @apply text-4xl md:text-5xl pr-4 text-center
+}
+
+.header2 {
+  @apply text-3xl mt-2
+}
+/* Defaults */
+:root {
+  @apply text-white bg-black
+}
