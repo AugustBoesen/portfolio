@@ -16,7 +16,7 @@ const Info = () => {
       <div className='flex flex-col text-center lg:text-left m-8 lg:ml-16'>
         <div className=' my-4 text-2xl md:text-4xl'><Greeter/></div>
         <div className=' text-sm md:text-lg'>
-            <div className='py-1'>If you find yourself here, you might be in need of a <i>producer</i>. were it an event, 
+            <div className='py-1'>If you find yourself here, you might be in need of a <i>producer</i>. Were it an event, 
                 software or music, you're definitely looking from the right places.</div>
             <div className='py-1'>My name is Severi. I'm a <Age/> year old finnish fellow with a passion to create and a 
                 drive to innovate. I've been a part of making music in many forms, different kinds of events and am currently studying computer information technology at JAMK.</div>
@@ -26,7 +26,7 @@ const Info = () => {
                 <div className='inline text-cyan-200'> Tailwind </div> 
                 using 
                 <div className='inline text-green-200'> HTML</div>, 
-                <div className='inline text-sky-200'> TypeScript</div> and 
+                <div className='inline text-sky-200'> TypeScript</div> and a little bit of additional 
                 <div className='inline text-emerald-200'> CSS</div>.</div>
               <div className='py-1'>Get to know me & my skillset and shoot me a message if anything piques your interest!</div>
         </div>
