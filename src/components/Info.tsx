@@ -6,10 +6,6 @@ import { profilepic } from '@/img'
 import Age from './subcomponents/Age'
 import Greeter from './subcomponents/Greeter'
 
-import Link from 'next/link'
-import Router from 'next/router'
-import musicpage from '../pages/music'
-
 const Info = () => {
   return (
     <div className='flex flex-col lg:flex-row absolute w-full mt-36 top-1/3 md:top-1/4 lg:mt-24 pb-16 bg-opacity-50 bg-black'>
@@ -32,7 +28,7 @@ const Info = () => {
         </div>
     </div>
         <div className='flex flex-col '>
-        <Image src={profilepic} alt="profilepic" className='mt-10 w-[40%] self-center rounded-e-full rounded-t-full'/>
+        <Image src={profilepic} alt="Photographer: Milla Asikainen" className='mt-10 w-[40%] self-center rounded-e-full rounded-t-full'/>
         </div>
     </div>
 

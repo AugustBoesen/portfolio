@@ -27,7 +27,7 @@ export default function events() {
             <p className='text-left pt-2'>I have worked on organizing 70+ different events, with varying sizes of 10-500 participants and different settings.
             My strengths lie in ground-level organization and structuring, including recruitment, task assigning and project development.</p>
             <p className='text-left pt-2'>Most of my experience lies in organizing various over-the-weekend community-based events such as LARPs, or Live Action RolePlays, which have required an average of 6-12 months of work as a whole.
-            Most commonly I have done project management, but other roles, such as budget managing, audio technician and stage managing are familiar as well</p>
+            Most commonly I have done project management, but other roles, such as budget managing, audio technician and stage managing are familiar as well.</p>
           </div>
           <div className='px-5'>
             <h2 className='text-3xl mt-2'>Associations</h2>
